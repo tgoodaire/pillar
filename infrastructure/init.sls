@@ -16,6 +16,8 @@ hosts:
     ip: 192.168.1.202
     jailhost: dahmer
   ramirez:
+    roles:
+      - pkg_server
     ip: 192.168.1.203
     jailhost: dahmer
   lake:
